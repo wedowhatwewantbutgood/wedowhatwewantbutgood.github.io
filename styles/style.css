@@ -8,6 +8,7 @@ body{
 .title{
     border-left: 100px;
     /* border: 2px solid blue; */
+    color: white;
     padding-top: 5vw;
     font-size: 48px;
     display: flex;
@@ -41,16 +42,22 @@ footer{
     margin-top: 5vh;
 }
 .email-holder{
-    margin-top: 2.45%;
+    margin-top: 2%;
     margin-right: 10%;
 }
 .email-holder img{
     height: 10vh;
 }
+.logo-holder{
+    margin-left: 7%;
+}
+.logo{
+    height: 20vh;
+}
 @media only screen and (max-width: 500px) { 
     /* FONT ADJUSTMENT */
     .title{
-       font-size: 28px; 
+       font-size: 32px; 
     }
     footer{
         flex-direction: column;
@@ -62,5 +69,9 @@ footer{
     .linkedin-holder img{
         width: 10vw;
         margin-right: 10vw;
+    }
+    .logo-holder{
+        margin-left: 0;
+        margin-right: 4%;
     }
 }
