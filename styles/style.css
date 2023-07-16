@@ -1,0 +1,66 @@
+body{
+    background-color: #556B2F;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    border-left: 100px;
+    /* border: 2px solid blue; */
+    padding-top: 5vw;
+    font-size: 48px;
+    display: flex;
+    margin: 0 auto;
+}
+.sloth_div{
+/* border: 2px solid green; */
+margin-top: 5vh;
+}
+.sloth_picture{
+    margin: 0 auto;
+}
+.direct_link{
+    height: 5vh;
+    width: 4vw;
+}
+footer{
+    margin-bottom: 10px;
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 100%;
+    align-items: bottom;
+    justify-content: center;
+}
+.linkedin-holder img{
+    margin: 0 auto;
+    margin-left: 10%;
+    /* border: 2px solid green; */
+    width: 4vw;
+    object-fit: contain;
+    margin-top: 5vh;
+}
+.email-holder{
+    margin-top: 2.45%;
+    margin-right: 10%;
+}
+.email-holder img{
+    height: 10vh;
+}
+@media only screen and (max-width: 500px) { 
+    /* FONT ADJUSTMENT */
+    .title{
+       font-size: 28px; 
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-holder{
+        margin-top: 7%;
+    }
+    .linkedin-holder img{
+        width: 10vw;
+        margin-right: 10vw;
+    }
+}
