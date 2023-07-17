@@ -9,17 +9,17 @@ body{
     border-left: 100px;
     /* border: 2px solid blue; */
     color: white;
-    padding-top: 5vw;
+    padding-top: 2vw;
     font-size: 48px;
     display: flex;
     margin: 0 auto;
 }
 .sloth_div{
 /* border: 2px solid green; */
-margin-top: 5vh;
+margin-top: 3vh;
 }
-.sloth_picture{
-    margin: 0 auto;
+.sloth_div img{
+    width: 35vw;
 }
 .direct_link{
     height: 5vh;
@@ -27,6 +27,7 @@ margin-top: 5vh;
 }
 footer{
     margin-bottom: 10px;
+    margin-top: 3vh;
     display: flex;
     /* border: 2px solid blue; */
     width: 100%;
@@ -35,43 +36,43 @@ footer{
 }
 .linkedin-holder img{
     margin: 0 auto;
-    margin-left: 10%;
+    margin-left: 5%;
     /* border: 2px solid green; */
     width: 4vw;
     object-fit: contain;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
-.email-holder{
-    margin-top: 2%;
-    margin-right: 10%;
-}
-.email-holder img{
-    height: 10vh;
+.banner-holder img{
+    width: 30vw;
+    margin-top: 4%;
 }
 .logo-holder{
-    margin-left: 7%;
+    margin-right: 5%;
 }
 .logo{
-    height: 20vh;
+    height: 15vh;
 }
 @media only screen and (max-width: 500px) { 
     /* FONT ADJUSTMENT */
     .title{
-       font-size: 32px; 
+       font-size: 48px; 
+    }
+    /* END FONT ADJUSTMENTS */
+    .sloth_div img{
+        width: 60vw;
+    }
+    .banner-holder img{
+        width: 77vw;
     }
     footer{
         flex-direction: column;
         align-items: center;
     }
-    .email-holder{
-        margin-top: 7%;
-    }
     .linkedin-holder img{
         width: 10vw;
-        margin-right: 10vw;
+        margin-right: 3.5vw;
     }
     .logo-holder{
-        margin-left: 0;
-        margin-right: 4%;
+        margin-left: 3.5vw;
     }
 }
