@@ -85,3 +85,13 @@ h1{
 body{
     background-color: #d4ae26;
 }
+
+/* DEAD BEAT FOR MOBILE STYLING */
+@media only screen and (max-width: 500px) { 
+    main{
+        max-width: 100vw;
+    }
+    .deadbeaterry{
+        max-width: 30vw;
+    }
+}
