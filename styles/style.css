@@ -1,5 +1,5 @@
 body{
-    background-color: #556B2F;
+    /* background-color: #556B2F; */
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
@@ -75,4 +75,13 @@ footer{
     .logo-holder{
         margin-left: 3.5vw;
     }
+}
+
+/* DEAD BEAT STYLING */
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #d4ae26;
 }
