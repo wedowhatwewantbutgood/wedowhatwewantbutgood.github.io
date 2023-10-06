@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Young Serif', serif;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+/* BACKGROUND IMAGE */
+
+main{
+    height: 75vh;
+    color: white;
+    background:url(images/chicken.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.scrim{
+background: rgba(0, 0, 0, .72);
+height: 100%;
+}
+
+/* END BACKGROUND IMAGE */
+
+header{
+    height: 10vh;
+}
+
+/* FOR LAYOUT */
+
+/* header{
+    border-bottom: 2px solid red;
+}  */
+
+/* header{
+    border: 2px solid red;
+} 
+ body{
+    border: 2px solid orange;
+}
+main{
+    border: 2px solid red;
+}
+section{
+    border: 2px solid blue;
+}
+div{
+    border: 2px solid green;
+}
+header{
+    background: white;
+} */
+
+/* END LAYOUT */
+
+
+/*SIDEBAR NAV*/
+
+.side-nav{
+    background: rgba(255, 255, 255, .8);
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    transition: all .3s cubic-bezier(0, 0.57, 0.74, 1.06);
+    -webkit-transition: all .3s cubic-bezier(0, 0.57, 0.74, 1.06);
+    -moz-transition: all .3s cubic-bezier(0, 0.57, 0.74, 1.06);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    z-index: 1;
+
+}
+.show-nav{
+    right: 0;
+}
+.menu-image{
+    height: 38px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+.x{
+    height: 38px;
+    align-self: flex-end;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+li{
+    list-style: none;
+    margin-top: 30%;
+}
+a{
+    display: block;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.nav-content{
+    width: 100%;
+    text-align: center;
+}
+
+/* END SIDE NAVIGATION */
+
+
+/* FOOTER LINKS */
+
+.link-container{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    /* border: 2px solid blue; */
+}
+.link-container img{
+    height: 5vh;
+    margin-left: 15px;
+}
+
+/* END FOOTER LINKS */
+
+
+.bio-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* START BIO */
+
+.paragraph{
+    margin-top: .1%;
+    padding: 20px;
+    background: rgba(0, 0, 0, .7);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7));
+    background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7));
+    background: -moz-linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7));
+    position: relative;
+    /* places paragraph out of eyeshot */
+    left: 100vw;
+    display: none;
+    animation-name: slide-para;
+    -webkit-animation-name: slide-para;
+    -moz-animation-name: slide-para;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    border: 2px solid rgba(237, 230, 230);
+    border-right: none;
+}
+.para-appear .paragraph{
+    display: block;
+}
+@keyframes slide-para{
+    0%{left:100%}
+    100%{left:0}
+}
+
+/* END BIO */
+
+/* START PHOTO */
+
+.photo-container{
+    /* NOTE-NEED PROFESSIONAL HEADSHOT*/
+    background-size: cover;
+    width: 85vw;
+    height: 35vw;
+    display: flex;
+    position: relative;
+    right: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, .92);
+    background: linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .92));
+    background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .92));
+    background: -moz-linear-gradient(135deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .92));
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    margin-top: 5%;
+    border: 2px solid rgba(237, 230, 230);
+    border-left: none;
+}
+ .photo-appear div{
+    right: 0;
+}
+.text-container{
+    align-self: flex-start;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+.text-container h2, .text-container h3{
+    margin: 0 auto;
+}
+#headshot{
+    width: 28vw;
+    border: 2px solid rgba(237, 230, 230);
+}
+
+/* END PHOTO */
+
+
+/* START CONTACT FORM */
+
+/* .contact-button{
+    border: none;
+    font-size: .9rem;
+} */
+
+/* END CONTACT FORM */
+
+
+/* START ANIMATIONS */
+
+/* @keyframes text-move{
+    from{left: 85vw}
+    to{left: 0vw}
+}
+@keyframes photo-move{
+    from{right: 85vw}
+    to{right: 0vw}
+} */
+
+/* END ANIMATIONS */
+
+
+@media only screen and (max-width: 480px){
+    h2{
+        font-size: 1.35rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media only screen and (min-width: 480px){
+    
+    /* NAV */
+    
+    .side-nav{
+        right: 0;
+        background: rgba(0, 0, 0, 0);
+        height: 10vh; 
+        width: 100%;
+        /* My old foe thwrats me again! */
+        position: relative;
+        border: none;    
+    }
+    li{
+        margin-left: 5%;
+    }
+    a{
+        font-size: 1.5rem;
+    }
+    .nav-content{
+        display: flex;
+        height: 100%;
+        align-items: flex-end;
+    }
+    .menu-image{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+    
+    /* END SIDENAV MEDIA QUERIES */
+
+
+   /* HEADER ADJUSTMENTS */
+    header{
+        position: relative;
+    }
+
+   /* END HEADER ADJUSTMENT */
+}
+
+
+
+/* MID-SIZE SCREENS */
+@media only screen and (min-width: 734px){
+    /* PHOTO ADJUSTMENTS */
+
+    .photo-container{
+        height: 20vh;
+        width: 50vw;
+        }
+        #headshot{
+            width: 18vh;
+        }
+        .text-container{
+            align-self: center;
+        }
+        .paragraph{
+            margin-left: 55%;
+        }
+
+        /* END PHOTO ADJUST */
+}
+
+
+/* LANDSCAPE ON MOBILE SIZE ADJUSTMENT */
+@media (max-width: 995px) and (orientation: landscape){
+    .paragraph{
+        margin-left: 20%;
+        font-size: .8rem;
+        top: -10%;
+        padding: 5px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .photo-container{
+        height: 20vh;
+        width: 50vw;
+        }
+        #headshot{
+            width: 18vh;
+        }
+} 
+/* END LANDSCAPE ON MOBILE */
+
+
+/* SUPER-WIDE SCREEN */
+@media only screen and (min-width: 3172px){
+    .paragraph{
+        top: -30%;
+    }
+}

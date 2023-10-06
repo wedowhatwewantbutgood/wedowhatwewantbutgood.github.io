@@ -1,0 +1,367 @@
+/* PAGE SETUP */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Young Serif', serif;
+}
+body{
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background: black;
+
+}
+header{
+    background: white;
+    height: 10vh;
+}
+
+/* END PAGE SETUP */
+
+
+/* FOR POSITIONING */
+
+/* div{
+    border: 2px solid green;
+}
+section{
+    border: 2px solid blue;
+}
+main{
+    border: 2px solid red
+}
+.main-flex-box{
+    border: 2px solid purple;
+}
+
+.wrapper{
+    border: 2px solid yellow;
+} */
+
+/* BACKGROUND */
+
+main{
+    background: url(images/patron.png);
+    background-size: cover;
+    height: 75vh;
+    color: white;
+}
+
+.scrim{
+    height: 100%;
+    background: rgba(0, 0, 0, .72);
+}
+
+/* END BACKGROUND */
+
+section{
+    margin: 0 auto;
+}
+
+/* END POSITIONING */
+
+
+/*SIDEBAR NAV*/
+
+.side-nav{
+    background: rgba(255, 255, 255, .8);
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    transition: all .2s cubic-bezier(0, 0.57, 0.74, 1.06);
+    -webkit-transition: all .2s cubic-bezier(0, 0.57, 0.74, 1.06);
+    -moz-transition: all .2s cubic-bezier(0, 0.57, 0.74, 1.06);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+.show-nav{
+    right: 0;
+}
+.menu-image{
+    height: 38px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+.x{
+    height: 38px;
+    align-self: flex-end;
+    margin-top: 15px;
+}
+li{
+    list-style: none;
+    margin-top: 30%;
+}
+a{
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.nav-content{
+    width: 100%;
+    text-align: center;
+}
+.nav-content a{
+    color:black;
+    text-decoration: none;
+}
+
+/* END SIDE NAVIGATION */
+
+
+/* MAIN FLEXBOX */
+
+.main-flex-box{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, .72);
+}
+#title{
+    padding-top: 3%;
+    padding-left: 5%
+}
+
+#contact-form{
+    margin-top: 3%;
+    width: 50vw;
+}
+
+#message-area{
+    height: 25vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.row-one{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+.row-two{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+#send-button{
+    margin-left: -33vw;
+    margin-top: 3%;
+    background-color: black;
+    border: 2px solid black;
+}
+
+/* END MAIN FLEXBOX */
+
+
+/* PROJECT CONTAINERS */
+.project-container{
+    height: 320px;
+    width: 320px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#safe-portal-project-container{
+    background: url(images/safe-portal-project-image.png);
+    background-position: center;
+    background-size: cover;
+}
+#foster-journey-project-container{
+    background: url(images/foster-journey-project-photo.png);
+    background-position: center;
+    background-size: cover;
+}
+#post-a-secret-project-container{
+    background: url(images/post-a-secret-project-image.png);
+    background-size: cover;
+    background-position: center;
+}
+#rosies-project-container{
+    background: url(images/rosies-travel-app-project-image.png);
+    background-size: cover;
+    background-position: center;
+}
+.project-title{
+    width: 100%;
+}
+
+/* PROJECT LINKS */
+.deployed-link{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+.deployed-link:hover{
+    text-decoration: underline
+}
+.check-out{
+    color: white;
+    font-size: .8rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.project-github-links-container{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+/* .link-container{
+    margin: 2px solid blue;
+    margin-left: 120px;
+} */
+.direct-link-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.direct-link{
+    height: 25px;
+    border: 1px solid white;
+}
+
+#rosie-project-title{
+    font-size: 1.7rem;
+}
+
+/* FOOTER LINKS */
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: white;
+    height: 10vh;
+}
+.link-image{
+    height: 5vh;
+    margin-left: 10px;
+}
+
+/* END FOOTER LINKS */
+
+
+/* START SLIDE PANELS */
+.project-text{
+    color: white;
+    background: rgba(0, 0, 0, .7);
+    font-family: 'Nunito Sans', sans-serif;
+    pointer-events: none;
+    padding: 15px;
+    border: 2px solid white;
+}
+.project-text p{
+    transition: height .5s ease-in-out;
+    -webkit-transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+}
+p{
+    height: 40px;
+    font-size: 2rem;
+    line-height: 1.6rem;
+}
+small{
+    font-size: 1rem;
+    transition: opacity .245s ease-in-out;
+    -webkit-transition: opacity .245s ease-in;
+    -moz-transition: opacity .245s ease-in-out;
+}
+small .link-image{
+    opacity: 0;
+}
+.show-description p{
+    height: 200px;
+}
+.show-description small{
+    opacity: 1;
+}
+/* END SLIDE PANELS */
+
+
+@media only screen and (max-width: 490px) { 
+    main{
+        background-image: url(images/patron-mobile.png);
+    }
+}
+
+
+@media only screen and (min-width: 490px) {  
+    /* NAV */  
+    .side-nav{
+        right: 0;
+        height: 15vh;
+        height: 10vh; 
+        width: 100%;
+        position: static;
+        border: none;    
+    }
+    li{
+        margin: 0;
+        margin-left: 5%
+    }
+    a{
+        font-size: 1.5rem;
+    }
+    .nav-content{
+        display: flex;
+        height: 100%;
+        align-items: flex-end;
+    }
+    .menu-image{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+        
+    /* END SIDENAV MEDIA QUERIES */
+
+
+    /* HEADER ADJUSTMENTS */
+    header{
+        position: relative;
+    }
+
+}
+
+@media only screen and (min-width: 839px) { 
+    /* FLEX ADJUSTMENT */
+    .row-one{
+        flex-direction: row;
+    }
+    .row-two{
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1039px){
+    .project-container{
+        height: 450px;
+        width: 450px;
+    }
+}
