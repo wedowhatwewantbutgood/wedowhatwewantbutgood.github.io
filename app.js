@@ -31,7 +31,7 @@ $($projectBox).on('mouseleave', (e)=>{
 $('.document').ready( ()=>{
             // setTimeout(puctuationChange, 1000)
             setTimeout(nameAppear, 1400);
-            setTimeout(jobAppear, 2400);
+            setTimeout(jobAppear, 3100);
     });
 
 //PUNCTUATION CHANGE

@@ -129,8 +129,12 @@ nav{
 
 .landing-page-text{
     transition: all 2s;
+    font-size: 1.9rem;
     -webkit-transition: all 2s;
     -moz-transition: all 2s;
+}
+#job-title{
+    font-size: 1.5rem;
 }
 .hero h1{
     margin-bottom: -15px;
