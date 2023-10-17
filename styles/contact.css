@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Young Serif', serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     font-size: 18px;
@@ -41,7 +41,7 @@ main{
 /* BACKGROUND */
 
 main{
-    background: url(images/patron.png);
+    background: url(images/man-again.jpg);
     background-size: cover;
     height: 75vh;
     color: white;
@@ -129,7 +129,7 @@ a{
 }
 #title{
     padding-top: 3%;
-    padding-left: 5%
+    padding-left: 12%
 }
 
 #contact-form{
