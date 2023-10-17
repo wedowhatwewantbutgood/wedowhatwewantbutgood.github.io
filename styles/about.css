@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Young Serif', serif;
+    font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
     font-size: 18px;
 }
@@ -18,7 +18,7 @@ h3{
 main{
     height: 75vh;
     color: white;
-    background:url(images/chicken.png);
+    background:url(images/merri-p.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -59,7 +59,6 @@ header{
 } */
 
 /* END LAYOUT */
-
 
 /*SIDEBAR NAV*/
 
