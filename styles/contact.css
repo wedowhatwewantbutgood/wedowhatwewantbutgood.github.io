@@ -313,6 +313,9 @@ small .link-image{
         background-image: url(images/patron-mobile.png);
     } */
 }
+#title{
+    font-size: 2rem;
+}
 #phone-number{
     /* text-align: center; */
     padding-left: 10%;
@@ -348,10 +351,6 @@ small .link-image{
     }
         
     /* END SIDENAV MEDIA QUERIES */
-    h5 a{
-        font-size: .5rem;
-        color: red;
-    }
 
     /* HEADER ADJUSTMENTS */
     header{
