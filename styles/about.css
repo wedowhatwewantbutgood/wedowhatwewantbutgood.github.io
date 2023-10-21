@@ -328,11 +328,11 @@ a{
 
 
 /* LANDSCAPE ON MOBILE SIZE ADJUSTMENT */
-@media (max-width: 995px) and (orientation: landscape){
+@media (max-width: 824px) and (orientation: landscape){
     .paragraph{
         margin-left: 20%;
         font-size: .8rem;
-        top: -10%;
+        margin-top: 10%;
         padding: 5px;
     }
     h2{
