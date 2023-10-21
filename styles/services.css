@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Young Serif', serif;
+    font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
     height: 100%;
     color: white;
@@ -12,7 +12,7 @@ body{
 
 /* BACKGROUND */
 main{
-    background: url(images/reading.png);
+    background: url(images/test-pattern.png);
     background-size: cover;
 }
 
@@ -248,7 +248,8 @@ textarea{
 @media only screen and (max-width: 480px) {
 
     main{
-        background: url(images/reading-mobile.png);
+        background: url(images/tp-mobile.png);
+        background-position: center;
     }
 
 }
