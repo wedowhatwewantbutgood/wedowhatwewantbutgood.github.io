@@ -131,14 +131,17 @@ a{
     padding-top: 3%;
     padding-left: 12%
 }
-
+#phone-number{
+    /* text-align: center; */
+    padding-left: 13%;
+}
 #contact-form{
     margin-top: 3%;
     width: 50vw;
 }
 
 #message-area{
-    height: 25vh;
+    height: 20vh;
 }
 
 .wrapper{
@@ -167,6 +170,7 @@ a{
 #send-button{
     margin-left: -33vw;
     margin-top: 3%;
+    margin-bottom: 3%;
     background-color: black;
     border: 2px solid black;
 }
@@ -228,10 +232,11 @@ a{
     justify-content: space-around;
     width: 75%;
 }
-/* .link-container{
-    margin: 2px solid blue;
-    margin-left: 120px;
-} */
+.link-container{
+    /* margin: 2px solid blue;
+    margin-left: 120px; */
+    margin-top: 3%;
+}
 .direct-link-container{
     display: flex;
     justify-content: center;
@@ -304,11 +309,14 @@ small .link-image{
 
 
 @media only screen and (max-width: 490px) { 
-    main{
+    /* main{
         background-image: url(images/patron-mobile.png);
-    }
+    } */
 }
-
+#phone-number{
+    /* text-align: center; */
+    padding-left: 10%;
+}
 
 @media only screen and (min-width: 490px) {  
     /* NAV */  
