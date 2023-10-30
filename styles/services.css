@@ -174,8 +174,13 @@ a{
     display: none;
 }
 /* .section-title{
-    margin-bottom: 5%;
+    padding-left: 5%;
 } */
+.secondary-title{
+    padding-left: 3%;
+}
+
+
 /* END GRID SECTION */
 
 
